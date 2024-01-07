@@ -1,0 +1,112 @@
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.App-header {
+  padding: 20px;
+}
+
+.calculator-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.result {
+  display: flex;
+  justify-content: space-between;
+  width: 95%;
+}
+
+.inputs-div {
+  padding: 10px;
+  margin: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  width: 200px;
+  height: 30px;
+  align-self: center;
+  border-radius: 10px;
+  border: 2px solid #00b386;
+  width: 94%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  background: #f1f1f1;
+  font-size: 18px;
+}
+input:focus {
+  outline: none;
+  border: none;
+  border-color: #00b386;
+  box-shadow: 0 0 10px #00b386;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  /* display:flex; */
+  /* flex-direction:column; */
+  /* justify-content: space-between; */
+}
+
+.calculate-button {
+  padding: 10px;
+  cursor: pointer;
+  color: white;
+  border-radius: 7px;
+  font-size: 19px;
+  font-weight: 600;
+  border: none;
+  background-color: #00b386;
+}
+
+.download-button{
+  padding-top: 10px;
+  padding-bottom:10px;
+  cursor: pointer;
+  color: white;
+  border-radius: 7px;
+  font-size: 19px;
+  font-weight: 600;
+  border: none;
+  background-color: #00b386;
+}
+
+.result-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.table-wrap h2 {
+  margin-left: 90px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #00b386;
+  color: white;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+tr:hover {
+  background-color: #ddd;
+}
